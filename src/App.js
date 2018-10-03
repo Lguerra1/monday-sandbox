@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 class App extends Component {
   render() {
     return (
@@ -18,7 +19,6 @@ class App extends Component {
             </div>
           </div>
         </header>
-
         <body>
           <h1>A new way to manage your work</h1>
           <h4>Plan. Organize. Track. In one visual, collaborative space.</h4>
