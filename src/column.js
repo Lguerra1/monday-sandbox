@@ -22,9 +22,7 @@ const TaskList = styled.div`
     transition: background-color 0.5s ease;
     background-color: ${props => (props.isDraggingOver ? `cornflowerblue` : `white`)};
     flex-grow: 1;
-    min-height: 100px;
-
-    
+    min-height: 100px;    
 `;
 
 export default class Column extends Component {
