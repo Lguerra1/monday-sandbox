@@ -3,23 +3,21 @@ import styled from 'styled-components';
 import { Draggable } from 'react-beautiful-dnd';
 
 const Container = styled.div`
-border: 1px solid black;
 padding:4px;
-border-radius: 2px;
 marting-bottom: 8px
-background-color: ${props => (props.isDragging ? `white` : `rgb(240, 240, 240)`)};
+background-color: ${props => (props.isDragging ? `white` : `#f0f0f0`)};
 color: black;
-font-size: 20px
-font-weight: bold;
-
+font-size: 15px;
+height: 20px;
 display: flex;
 `;
 
 const Handle = styled.div`
-width: 10px;
-height: 40px;
+width: 5px;
+height: 100%;
 background-color: rgb(87, 155, 252);
 margin-right: 8px;
+display: flex;
 
 `
 
